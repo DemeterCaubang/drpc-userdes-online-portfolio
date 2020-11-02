@@ -27,6 +27,6 @@ width: 200px;
 
 html {
 scroll-behavior: smooth;
-background:linear-gradient(rgba(0, 0, 0, 0.5), #d8d8d8),url(images/activity1/facebook.jpg) no-repeat center fixed;
+background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/activity1/facebook.jpg) no-repeat center fixed;
 background-size: cover;
 }
