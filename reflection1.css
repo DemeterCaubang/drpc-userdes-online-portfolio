@@ -1,0 +1,33 @@
+.navbar {
+background-color: #105c3b;
+}
+
+.bmo:hover {
+background:url(images/general/);
+background-size: contain;
+}
+
+a:hover {
+color: #105c3b;
+}
+
+.section-area {
+background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(images/general/google.gif) center fixed;
+background-size: cover;
+color: white;
+}
+
+.text-part{
+background-color: #20b776;
+}
+
+img {
+height: 200px;
+width: 700px;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.7), #d8d8d8),url(images/reflection1/userinyerface.jpg) no-repeat center fixed;
+background-size: cover;
+}

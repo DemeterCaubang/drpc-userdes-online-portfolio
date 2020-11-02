@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@700&family=Source+Sans+Pro&display=swap');
+body {
+margin: 0;
+padding: 0;
+font-family: 'Roboto Slab', serif;
+color: #fff
+}
+
+.navbar {
+position: fixed;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-direction: row-reverse;
+width: 100%;
+height: 100px;
+z-index: 1;
+}
+
+.header {
+width:700px;
+height:100px;
+}
+
+.logo-shape {
+margin-left: 15px;
+  border-radius: 15px;
+  background-color: #4ab8a7;
+  width: 70px;
+  height: 70px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.bmo {
+border-radius: 10px;
+width: 50px;
+height: 50px;
+background:url(images/general/bmo.jpg);
+background-size: contain;
+}
+
+a{
+margin-left: 238%;
+color: #fff;
+padding: 17px;
+text-decoration: none;
+}
+a:hover {
+cursor: pointer;
+background-color: #fff;
+}
+
+.banner-area {
+position: relative;
+width: 100%;
+height: 100vh;
+}
+
+/* text in banner */
+.banner-text {
+font-family: 'Pacifico', cursive;
+line-spacing: 1px;
+font-size: 70px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* outer containers */
+.text-area {
+position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+left: 10%;
+width: 80%;
+height: 700px;
+background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.section-area {
+position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+left: 10%;
+width: 80%;
+height: 320px;
+font-family: 'Pacifico', cursive;
+color: black;
+}
+
+/* text container to set text margin */
+.text-part{
+text-align: center;
+padding: 20px;
+width: 80%;
+height: 80%;
+}
+
+.disclaimer-part{
+text-align: center;
+padding: 20px;
+}
+
+.disclaimer-part p{
+font-family: calibri;
+font-size: 20px;
+line-height: 25px;
+}
+
+.disclaimer-area {
+background-color: #333;
+}
+
+.references {
+text-align: left;
+}
+
+/* headers of each outer container */
+h1 {
+font-size: 50px;
+}
+
+h2 {
+font-size: 40px;
+}
+
+h3 {
+font-family: calibri;
+font size: 10px;
+font-style: italic;
+color: #D3D3D3;
+}
+
+h4 {
+margin-left: 15px;
+font-size: 25px;
+}
+
+p {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 24px;
+line-height: 30px;
+}

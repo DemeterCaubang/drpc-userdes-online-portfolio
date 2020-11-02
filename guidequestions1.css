@@ -1,0 +1,36 @@
+.navbar {
+background-color: #3b105c;
+}
+
+.bmo:hover {
+background:url(images/general/);
+background-size: contain;
+}
+
+a:hover {
+color: #3b105c;
+}
+
+.section-area {
+background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/general/design.gif) center fixed;
+background-size: contain;
+}
+
+.text-part{
+background-color: #8675a9;
+}
+
+img {
+height: 300px;
+width: 500px;
+}
+
+h2 {
+text-align: center;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.5), #d8d8d8),url(images/guidequestions1/tesselation.png) no-repeat center fixed;
+background-size: cover;
+}
