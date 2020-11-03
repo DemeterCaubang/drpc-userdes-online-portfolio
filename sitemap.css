@@ -1,0 +1,56 @@
+table{
+border-spacing: 0px;
+}
+
+th, td {
+height: 50px;
+width: 70px;
+text-align: center;
+}
+
+a {
+text-decoration: none;
+color: #fff;
+}
+
+.home, .activities, .reflections, .learnings, .guidequestions, .aboutme {
+  border: 1px solid none;
+border-radius:8px;
+}
+
+.home {
+background-color: #333;
+}
+
+.activities {
+background-color: #931a25;
+}
+
+.reflections {
+background-color: #105c3b;
+}
+
+.learnings {
+background-color: #10315c;
+}
+
+.guidequestions {
+background-color: #3b105c;
+}
+
+.aboutme {
+background-color: #4ab8a7;
+}
+
+.borderlinebottomright {
+border-bottom: 3px solid black;
+border-right: 3px solid black;
+}
+
+.borderlinebottom {
+border-bottom: 3px solid black;
+}
+
+.borderlineright {
+border-right: 3px solid black;
+}
