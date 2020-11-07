@@ -54,6 +54,11 @@ background:url(images/general/bmo.JPG);
 background-size: contain;
 }
 
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
 .logo {
 margin-left: 68%;
 color: #fff;

@@ -41,13 +41,18 @@ background:url(images/general/bmo.JPG);
 background-size: contain;
 }
 
-a{
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
+.logo{
 margin-left: 238%;
 color: #fff;
 padding: 17px;
 text-decoration: none;
 }
-a:hover {
+.logo:hover {
 cursor: pointer;
 background-color: #fff;
 }

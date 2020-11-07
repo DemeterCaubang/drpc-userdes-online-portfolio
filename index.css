@@ -18,7 +18,7 @@ background-color: #333;
 
 .nav {
 display: flex;
-width: 55%;
+width: 60%;
 justify-content: space-between;
 list-style: none;
 margin-right: 15%;
@@ -60,7 +60,7 @@ background-size: contain;
 }
 
 .logo {
-margin-left: 68%;
+margin-left: 28%;
 color: #fff;
 padding: 17px;
 text-decoration: none;
@@ -103,7 +103,7 @@ width: 80%;
 height: 700px;
 }
 
-.activity-area, .guidequestions-area, .reflection-area, .learnings-area {
+.activity-area, .guidequestions-area, .reflection-area, .learnings-area, .aboutme-area {
 position: relative;
 display: flex;
 justify-content: space-around;
@@ -129,6 +129,10 @@ background-color: #105c3b;
 
 .learnings-area {
 background-color: #10315c;
+}
+
+.aboutme-area {
+background-color: #4ab8a7;
 }
 
 /* text container to set text margin */
@@ -157,7 +161,7 @@ color: #D3D3D3;
 
 p {
 font-family: 'Source Sans Pro', sans-serif;
-font-size: 20px;
+font-size: 24px;
 line-height: 25px;
 }
 
@@ -166,7 +170,7 @@ button {
   border: none;
 border-radius: 15px;
   color: #333;
-  padding: 15px 32px;
+  padding: 10px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

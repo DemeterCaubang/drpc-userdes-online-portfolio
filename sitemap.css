@@ -13,6 +13,40 @@ text-decoration: none;
 color: #fff;
 }
 
+a:hover {
+color: black;
+}
+
+.home:hover {
+background-color: #fff;
+box-shadow: 0px 10px 10px #aaa;
+}
+
+.activities:hover {
+background-color: #e84545;
+box-shadow: 0px 10px 10px #aaa;
+}
+
+.reflections:hover {
+background-color: #20b776;
+box-shadow: 0px 10px 10px #aaa;
+}
+
+.learnings:hover {
+background-color: #7fade9;
+box-shadow: 0px 10px 10px #aaa;
+}
+
+.guidequestions:hover {
+background-color: #8675a9;
+box-shadow: 0px 10px 10px #aaa;
+}
+
+.aboutme:hover {
+background-color: #d2fce4;
+box-shadow: 0px 10px 10px #aaa;
+}
+
 .home, .activities, .reflections, .learnings, .guidequestions, .aboutme {
   border: 1px solid none;
 border-radius:8px;
@@ -43,14 +77,19 @@ background-color: #4ab8a7;
 }
 
 .borderlinebottomright {
-border-bottom: 3px solid black;
-border-right: 3px solid black;
+border-bottom: 3px solid white;
+border-right: 3px solid white;
 }
 
 .borderlinebottom {
-border-bottom: 3px solid black;
+border-bottom: 3px solid white;
 }
 
 .borderlineright {
-border-right: 3px solid black;
+border-right: 3px solid white;
+}
+
+html {
+scroll-behavior: smooth;
+background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/general/bmore.jpg);
 }

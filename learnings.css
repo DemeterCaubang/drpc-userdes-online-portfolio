@@ -1,0 +1,31 @@
+.navbar {
+background-color: #10315c;
+}
+
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
+a:hover {
+color: #10315c;
+}
+
+.text-part{
+background-color: #7fade9;
+}
+
+img {
+height: 500px;
+width: 500px;
+}
+
+h3 {
+color: #333;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/learnings/lkdn.jpg) no-repeat center fixed;
+background-size: cover;
+}

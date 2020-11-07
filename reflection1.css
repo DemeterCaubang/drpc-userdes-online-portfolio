@@ -3,7 +3,7 @@ background-color: #105c3b;
 }
 
 .bmo:hover {
-background:url(images/general/);
+background:url(images/general/sitemap.jpg);
 background-size: contain;
 }
 
@@ -12,10 +12,15 @@ color: #105c3b;
 }
 
 .section-area {
-background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(images/general/google.gif) center fixed;
+background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/general/google.gif) center fixed;
 background-size: cover;
 color: white;
 }
+
+.section-area h1 {
+    text-shadow: 2px 3px 20px  #105c3b;
+    color: #fff;
+    }
 
 .text-part{
 background-color: #20b776;
