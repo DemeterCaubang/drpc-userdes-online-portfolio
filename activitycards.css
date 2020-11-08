@@ -117,9 +117,21 @@ align-items: center;
 line-spacing: 12px;
 }
 
-.displayarea .cards li:hover {
+.displayarea .cards .act1:hover {
 box-shadow: 0px 10px 10px #aaa;
-background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity1/facebook.jpg) no-repeat center fixed;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity1/background.jpg) no-repeat center fixed;
+background-size: contain;
+}
+
+.displayarea .cards .act2:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity2/background.jpg) no-repeat center fixed;
+background-size: contain;
+}
+
+.displayarea .cards .act3:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity3/background.png) no-repeat center fixed;
 background-size: contain;
 }
 

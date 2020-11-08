@@ -2,18 +2,6 @@
 background-color: #931a25;
 }
 
-.nav {
-
-}
-.header {
-width: 150px;
-overflow: hidden;
-}
-
-li {
-list-style: none;
-}
-
 a:hover {
 color: #931a25;
 }
@@ -32,6 +20,11 @@ background-size: contain;
 background-color: #e84545;
 }
 
+.disclaimer-part{
+background-color: #333;
+}
+
+
 img {
 height: 200px;
 width: 200px;
@@ -39,6 +32,6 @@ width: 200px;
 
 html {
 scroll-behavior: smooth;
-background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/activity1/facebook.jpg) no-repeat center fixed;
+background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/activity1/background.jpg) no-repeat center fixed;
 background-size: cover;
 }

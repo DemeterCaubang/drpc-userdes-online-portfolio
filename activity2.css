@@ -1,0 +1,31 @@
+.navbar {
+background-color: #931a25;
+}
+
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
+a:hover {
+color: #931a25;
+}
+
+.text-part{
+background-color: #e84545;
+}
+
+img {
+height: 500px;
+width: 500px;
+}
+
+h3 {
+color: #333;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/activity2/background.jpg) no-repeat center fixed;
+background-size: cover;
+}

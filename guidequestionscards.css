@@ -117,9 +117,15 @@ align-items: center;
 line-spacing: 12px;
 }
 
-.displayarea .cards li:hover {
+.displayarea .cards .gq1:hover {
 box-shadow: 0px 10px 10px #aaa;
-background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/guidequestions1/tesselation.png) no-repeat center fixed;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/guidequestions1/background.png) no-repeat center fixed;
+background-size: contain;
+}
+
+.displayarea .cards .gq2:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/guidequestions2/background.png) no-repeat center fixed;
 background-size: contain;
 }
 

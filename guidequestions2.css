@@ -34,8 +34,13 @@ h2 {
 text-align: center;
 }
 
+p {
+font-size: 20px;
+line-spacing: 10px;
+}
+
 html {
 scroll-behavior: smooth;
-background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/guidequestions1/background.png) no-repeat center fixed;
+background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/guidequestions2/background.png) no-repeat center fixed;
 background-size: cover;
 }
