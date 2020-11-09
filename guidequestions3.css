@@ -1,0 +1,50 @@
+.navbar {
+background-color: #3b105c;
+}
+
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
+a:hover {
+color: #3b105c;
+}
+
+.section-area {
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/general/design.gif) center fixed;
+background-size: contain;
+}
+
+.section-area h1 {
+text-shadow: 2px 3px 20px #3b105c;
+color: #fff;
+}
+
+.text-part{
+background-color: #8675a9;
+}
+
+img {
+height: 300px;
+width: 500px;
+}
+
+.prototype {
+height: 450px;
+width: 650px;
+}
+h2 {
+text-align: center;
+}
+
+p {
+font-size: 20px;
+line-spacing: 10px;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(images/guidequestions3/background.jpg) no-repeat center fixed;
+background-size: cover;
+}

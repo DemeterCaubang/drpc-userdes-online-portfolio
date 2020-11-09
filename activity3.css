@@ -15,6 +15,10 @@ color: #931a25;
 background-color: #e84545;
 }
 
+.references {
+text-align: center;
+}
+
 img {
 margin-top: 60px;
 height: 400px;
