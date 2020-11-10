@@ -135,6 +135,30 @@ background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/ac
 background-size: contain;
 }
 
+.displayarea .cards .act4:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity4/background.jpg) no-repeat center fixed;
+background-size: contain;
+}
+
+.displayarea .cards .act5:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity5/background.jpg) no-repeat center fixed;
+background-size: contain;
+}
+
+.displayarea .cards .act6:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity6/background.jpg) no-repeat center fixed;
+background-size: contain;
+}
+
+.displayarea .cards .act7:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/activity7/background.gif) no-repeat center fixed;
+background-size: contain;
+}
+
 .displayarea .cards li a{
 text-decoration: none;
 color: #fff;

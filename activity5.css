@@ -1,0 +1,37 @@
+.navbar {
+background-color: #931a25;
+}
+
+a:hover {
+color: #931a25;
+}
+
+.section-area {
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/general/section-twinkle.gif) center fixed;
+background-size: contain;
+}
+
+.section-area h1 {
+    text-shadow: 2px 3px 20px #931a25;
+    color: #fff;
+    }    
+
+.text-part{
+background-color: #e84545;
+}
+
+.disclaimer-part{
+background-color: #333;
+}
+
+
+img {
+height: 550px;
+width: 550px;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/activity5/background.jpg) no-repeat center fixed;
+background-size: cover;
+}

@@ -1,0 +1,49 @@
+.navbar {
+background-color: #931a25;
+}
+
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
+a:hover {
+color: #931a25;
+}
+
+.design-area{
+position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+left: 10%;
+width: 80%;
+height: 1200px;
+background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.text-part{
+background-color: #e84545;
+}
+
+img {
+height: 300px;
+width: 600px;
+}
+
+.design {
+height: 700px;
+width: 500px;
+}
+
+.references {
+text-align: center;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/activity4/background.jpg) no-repeat center fixed;
+background-size: cover;
+}

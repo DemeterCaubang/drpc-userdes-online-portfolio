@@ -143,6 +143,16 @@ width: 40%;
 height: 40%;
 }
 
+.disclaimer-part p{
+font-family: calibri;
+font-size: 20px;
+line-height: 25px;
+}
+
+.disclaimer-area {
+background-color: #333;
+}
+
 /* headers of each outer container */
 h1 {
 font-size: 50px;

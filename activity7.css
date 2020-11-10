@@ -12,21 +12,25 @@ color: #931a25;
 }
 
 .text-part{
-background-color: #e84545;
+background-color: #333;
 }
 
 img {
-margin-top: 60px;
-height: 400px;
-width: 700px;
+height: 300px;
+width: 600px;
 }
 
-h3 {
-color: #333;
+.portrait {
+width: 300px;
+height: 400px;
+}
+
+.references {
+text-align: center;
 }
 
 html {
 scroll-behavior: smooth;
-background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/activity2/background.jpg) no-repeat center fixed;
+background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(images/activity7/background.gif) no-repeat center fixed;
 background-size: cover;
 }
