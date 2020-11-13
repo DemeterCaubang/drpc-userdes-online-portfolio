@@ -196,3 +196,47 @@ html {
 scroll-behavior: smooth;
 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/general/background.gif);
 }
+
+body {
+  background-color: #222;
+  }
+  
+  .load {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flew-wrap: no-wrap;
+  justify-content: space-around;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .load span {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 100%;
+  animation: Example .4s alternate infinite;
+  }
+  
+  .load span:nth-child(1) {
+  }
+  
+  .load span:nth-child(2) {
+  animation-delay: .1s
+  }
+  
+  .load span:nth-child(3) {
+  animation-delay: .2s
+  }
+  
+  .load span:nth-child(4) {
+  animation-delay: .1s
+  }
+  
+  @keyframes Example{
+  from{transform:translate(0);}
+  to{transform:translateY(0-100%);}
+  }
