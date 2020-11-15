@@ -157,6 +157,11 @@ font-size: 24px;
 line-height: 30px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 button {
   background-color: #fff;
   border: none;
