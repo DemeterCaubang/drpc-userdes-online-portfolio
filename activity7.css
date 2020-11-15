@@ -1,5 +1,19 @@
 .navbar {
-background-color: #931a25;
+background-color: #333;
+}
+
+.nav-demo {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100px;
+}
+.nav-demo li{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
 }
 
 .bmo:hover {
@@ -11,18 +25,119 @@ a:hover {
 color: #931a25;
 }
 
+.text-part {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.section-area {
+background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/general/section-twinkle.gif) center fixed;
+background-size: contain;
+}
+
+.section-area h1 {
+    text-shadow: 2px 3px 20px #333;
+    color: #fff;
+    } 
+
 .text-part{
 background-color: #333;
+}
+
+.ban {
+font-family: 'Pacifico', cursive;
+}
+
+.accentcolors {
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.accentcolors li {
+padding: 10px;
+border: 2px solid #fff;
+}
+
+.act2 {
+background-color: #e84545;
+}
+
+.ref2 {
+background-color: #20b776;
+}
+
+.guide2 {
+background-color: #8675a9;
+}
+
+.maincolors {
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.maincolors li {
+padding: 10px;
+border: 2px solid #fff;
+}
+
+.homefooter {
+background-color: #333;
+}
+
+.act {
+background-color: #931a25;
+}
+
+.ref {
+background-color: #105c3b;
+}
+
+.learn {
+background-color: #10315c;
+}
+
+.guide {
+background-color: #3b105c;
+}
+
+.about {
+background-color: #4ab8a7;
+}
+
+.logo-shape-demo {
+  border-radius: 15px;
+  background-color: #4ab8a7;
+  width:240px;
+  height: 240px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.bmo-demo {
+border-radius: 10px;
+width: 180px;
+height: 180px;
+background:url(images/general/bmo.JPG);
+background-size: contain;
+}
+
+.bmo-demo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
 }
 
 img {
 height: 300px;
 width: 600px;
-}
-
-.portrait {
-width: 300px;
-height: 400px;
 }
 
 .references {
