@@ -1,0 +1,38 @@
+.navbar {
+background-color: #105c3b;
+}
+
+.bmo:hover {
+background:url(images/general/sitemap.jpg);
+background-size: contain;
+}
+
+a:hover {
+color: #105c3b;
+}
+
+.section-area {
+background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/general/google.gif) center fixed;
+background-size: cover;
+color: white;
+}
+
+.section-area h1 {
+    text-shadow: 2px 3px 20px  #105c3b;
+    color: #fff;
+    }
+
+.text-part{
+background-color: #20b776;
+}
+
+img {
+max-height: 200px;
+max-width: 700px;
+}
+
+html {
+scroll-behavior: smooth;
+background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/reflection5/background.jpg) no-repeat center fixed;
+background-size: cover;
+}
