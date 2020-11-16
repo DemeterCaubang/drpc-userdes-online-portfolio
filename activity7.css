@@ -2,18 +2,42 @@
 background-color: #333;
 }
 
+.logo-demo {
+font-size: 120px;
+text-decoration: none;
+color: #fff;
+padding: 20px;
+}
+
+.logo-demo:hover {
+background-color: #fff;
+color: #333;
+}
+
 .nav-demo {
 display: flex;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: 90%;
 height: 100px;
 }
+
 .nav-demo li{
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 20px;
+border: 2px solid #fff;
+}
+
+.nav-demo li a {
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
+
+.nav-demo li a:hover {
+text-decoration: underline;
 }
 
 .bmo:hover {
@@ -22,7 +46,7 @@ background-size: contain;
 }
 
 a:hover {
-color: #931a25;
+color: #333;
 }
 
 .text-part {
