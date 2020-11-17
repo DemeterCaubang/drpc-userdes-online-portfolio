@@ -147,6 +147,12 @@ background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/re
 background-size: contain;
 }
 
+.displayarea .cards .ref6:hover {
+box-shadow: 0px 10px 10px #aaa;
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/reflection6/background.jpg) no-repeat center fixed;
+background-size: contain;
+}
+
 .displayarea .cards li a{
 text-decoration: none;
 color: #fff;
